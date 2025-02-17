@@ -1,1 +1,1 @@
-# gorevyonetim
+Bu proje, kullanıcıların görevlerini kolayca ekleyip yönetebileceği bir görev takip sistemidir. Kullanıcılar yeni görevler ekleyebilir, tamamlandı olarak işaretleyebilir, düzenleyebilir veya silebilir. Ayrıca, yalnızca tamamlanmış ya da tamamlanmamış görevleri görmek için filtreleme yapabilirler. Tüm görevleri tek tıklamayla temizleme özelliği de bulunmaktadır. Bu sayede kullanıcılar görevlerini düzenli bir şekilde takip edebilir ve günlük işlerini daha verimli hale getirebilirler
