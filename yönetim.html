@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Görev Yönetim Sistemi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Görev Yönetim Sistemi</h1>
+        <div class="task-input">
+            <input type="text" id="taskInput" placeholder="Yeni görev ekle...">
+            <button id="addTaskBtn">Ekle</button>
+        </div>
+        <div class="task-filters">
+            <label for="filterTasks">Filtrele:</label>
+            <select id="filterTasks">
+                <option value="all">Tümü</option>
+                <option value="completed">Tamamlanmış</option>
+                <option value="pending">Tamamlanmamış</option>
+            </select>
+            <button id="clearAllBtn">Tümünü Temizle</button>
+        </div>
+        <ul id="taskList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
